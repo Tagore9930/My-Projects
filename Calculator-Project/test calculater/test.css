@@ -1,0 +1,69 @@
+body{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.input {
+   position: relative;
+   top: 150px;
+   font-size: 60px;
+   text-align: right;
+   border: silver;
+   caret-color: transparent;
+}
+#input2{
+   font-size: 40px;
+   color: rgb(80, 80, 80);
+}
+.input:focus{
+   outline: none;
+}
+
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+ }
+
+table {
+   height: 50px;
+   position: relative;
+   top: 150px;
+}
+
+td,tr{
+   width: 150px;
+   height: 50px;
+   text-align: center;
+}
+
+a{
+   border-radius: 100px;
+   cursor: pointer;
+}
+
+a:active{
+   background: rgb(200, 200, 200);
+}
+
+#symbols {
+   color: #fd7e14;
+   text-decoration: none;
+   font-size: 50px;
+}
+
+#numbers {
+   font-size: 50px;
+}
+
+.bi{
+   font-size: 70% !important;
+}
+
+#div3 {
+   display: none;
+ }
+
+#div1 {
+   position: relative;
+   top: 70px;
+}

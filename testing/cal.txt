@@ -1,0 +1,32 @@
+ 
+    <input type="text" id="display" autofocus>
+    <br>
+    <br>
+    <input type="text" id="Ans" autofocus readonly>
+
+<br>
+    <input type="button" class="btn btn-success" value="AC"  onclick="display.value = '', Ans.value = ''">
+    <input type="button" class="btn btn-success" value="Del" onclick="display.value = display.value.toString().slice(0,-1)" >
+    <input type="button" class="btn btn-success" value="%"  onclick="display.value += '%'">
+    <input type="button" class="btn btn-success" value="÷"  onclick="display.value += '÷'">
+<br>
+    <input type="button" class="btn btn-success" value="7"  onclick="display.value += 7">
+    <input type="button" class="btn btn-success" value="8"  onclick="display.value += 8">
+    <input type="button" class="btn btn-success" value="9"  onclick="display.value += 9">
+    <input type="button" class="btn btn-success" value="×"  onclick="display.value += '×'">
+<br>
+    <input type="button" class="btn btn-success" value="4"  onclick="display.value += 4">
+    <input type="button" class="btn btn-success" value="5"  onclick="display.value += 5">
+    <input type="button" class="btn btn-success" value="6"  onclick="display.value += 6">
+    <input type="button" class="btn btn-success" value="-"  onclick="display.value += '-'">
+<br>
+    <input type="button" class="btn btn-success" value="1"  onclick="display.value += 1">
+    <input type="button" class="btn btn-success" value="2"  onclick="display.value += 2">
+    <input type="button" class="btn btn-success" value="3"  onclick="display.value += 3">
+    <input type="button" class="btn btn-success" value="+"  onclick="display.value += '+'">
+<br>
+    <input type="button" class="btn btn-success" value="00"  onclick="display.value += '00'">
+    <input type="button" class="btn btn-success" value="0"  onclick="display.value += 0">
+    <input type="button" class="btn btn-success" value="•"  onclick="display.value += '.'">
+    <input type="button" class="btn btn-success" value="="  onclick="Ans.value = eval(display.value)">
+

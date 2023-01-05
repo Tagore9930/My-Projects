@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1150px) {
+    .container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .NumberInput {
+        caret-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1150px) {
+    .container {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 676px) and (max-width: 850px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 525px) and (max-width: 676px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 386px) and (max-width: 525px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 386px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .col-media-0-386 {
+        margin-top: 10px !important;
+        position: relative !important;
+        left: 15% !important;
+    }
+
+    div.col-3.col-media-0-386 {
+        left: 28% !important;
+        width: 41% !important;
+        bottom: 16px;
+        top: 15px;
+    }
+
+    p {
+        margin: 0px;
+        top: -43px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .p-top {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 586px) {
+    .p-top {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    pre {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .card-2.mt-4 {
+        margin-top: 1rem !important;
+    }
+
+    p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+
+    @media screen and (max-width: 386px) {
+        .SubmitButton {
+            position: relative;
+            bottom: 7px;
+        }
+    }
+}
